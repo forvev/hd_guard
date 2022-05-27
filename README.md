@@ -4,7 +4,7 @@ The automation of our daily things is really important in terms of speeding up o
 
 The essential idea of this program is keeping track of your disk space. 
 
-The user can provide the vaule, which will be followed in the next steps. When disk usage reach this treshold vaule, the displays information about it.
+The user can provide the vaule, which will be followed in the next steps. When disk usage reach this treshold vaule, the program displays information about it.
 There are two ways; clear the partition or just skip it.
 
 When we choose the first one the program will display a set of proposed files to choose (in the next steps it will be removed or archiced - depends on user). Everything is properly selected. It avoids files such as links, system's files. Generally speaking any files, which are important for our system, won't be proposed. 
