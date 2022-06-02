@@ -1,4 +1,6 @@
 #! /bin/bash
+offset=(`ls`)
+echo $offset
 
 function oddzielenie(){
     echo "------------------------------------------------------------"
@@ -249,7 +251,7 @@ function main(){
 
         oddzielenie
 
-        printf "Name:|$nazwa \nSize:|$rozmiar \nUse:|$uzycie \nAvailable:|$dostepne\nUse(%):|$use%%\nBorder value:|$limit%%\n" | column -t -s '|'
+        printf "Name:|$nazwa \nSize:|$rozmiar \nUse:|$uzycie \nAvailable:|$dostepne\nUse(%%):|$use%%\nBorder value:|$limit%%\n " | column -t -s '|'
 
         oddzielenie
 

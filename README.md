@@ -12,4 +12,7 @@ After the section with choosing files the user can decide whether he wants to de
 
 When it comes to removal, it is really simple, because the files are just removed form our disk. Considering the second way, which is an archiving, the user has to provide the palace, where zip file will be saved. It accepts only correct directories. After that, the program will check whether we cleaned enough space or not. If not, the steps will be repeated.
 
+IMPORTANT: before you run the program, please put this command:
+dos2unix ./hd_guard.sh  
 
+It will convert a plain text to unix. Otherwise the program couldn't work.
