@@ -15,4 +15,4 @@ When it comes to removal, it is really simple, because the files are just remove
 IMPORTANT: before you run the program, please put this command:
 dos2unix ./hd_guard.sh  
 
-It will convert a plain text to unix. Otherwise the program couldn't work.
+It will convert a plain text to unix. Otherwise the program won't work.
